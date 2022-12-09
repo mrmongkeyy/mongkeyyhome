@@ -4,7 +4,8 @@
   "description": "good app, for tracking the productivity of ur day.",
   "main": "app.js",
   "scripts": {
-    "test": "nodemon app"
+    "test": "nodemon app",
+    "start":"node app"
   },
   "keywords": [
     "goodapp"
