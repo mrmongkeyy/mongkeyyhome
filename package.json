@@ -1,0 +1,14 @@
+{
+  "name": "goodboard",
+  "version": "1.0.0",
+  "description": "good app, for tracking the productivity of ur day.",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app"
+  },
+  "keywords": [
+    "goodapp"
+  ],
+  "author": "mrmongkeyy",
+  "license": "ISC"
+}

@@ -1,0 +1,451 @@
+body{
+	background: black;
+	margin: 0;
+	user-select: none;
+}
+#main{
+	width: 100%;
+	float: left;
+	font-size: 30px;
+	font-family: monospace;
+}
+#head{
+	width: 98%;
+	float: left;
+	padding: 1%;
+	position: sticky;
+	top: 0;
+	border-bottom: 2px dotted #3e3ec1;
+	background: black;
+}
+#head #title{
+	width: 50%;
+	float: left;
+	text-align: left;
+	color: #3e3ec1;
+}
+#head nav{
+	width: 50%;
+	float: left;
+	text-align: right;
+	color: #3e3ec1;	
+}
+#mobilenav{
+	display: none;
+}
+#head nav div{
+	float: right;
+}
+#head nav div span{
+	padding: 10px;
+}
+#head nav div span:hover{
+	color: white;
+	cursor: pointer;
+}
+#content{
+	width: 55%;
+	margin: auto;
+	font-size: 50px;
+	margin-top: 200px;
+	padding-left: 5%;
+	border-left: 5px dotted #3e3ec1;
+}#imgsecout{
+	width: 100%;
+	float: left;
+}
+#imgsec{
+	width: 64px;
+	height: 64px;
+	float: left;
+	text-align: left;
+	background: white;
+	border-radius: 50%;
+	border: 2px dotted #3e3ec1;
+}
+#imgsec img{
+	width: 60px;
+	margin: auto;
+	padding: 2px;
+	border-radius: 50%;
+	height: 60px;
+}
+.white{
+	color: white;
+}
+.purple{
+	color: #3e3ec1;
+}
+.yellow{
+	color: #ffcc00;
+}
+.aqua{
+	color: #0099cc;
+}
+.red{
+	color: #ff3333;
+}
+.fz-20s{
+	font-size: 20px;
+}
+#mobilenavchoose{
+	width: 93%;
+	border: 1% solid #3e3ec1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: black;
+	padding: 3%;
+	display: none;
+}
+#mobilenavchoose div{
+	font-size: 20px;
+	width: 33.3%;
+	text-align: center;
+}
+#mobilenavchoose div:hover{
+	color: white;
+}
+.cursorChangePointer{
+	cursor: pointer;
+}
+#copy{
+	color: white;
+	font-size: 12px;
+}
+.hide{
+	display: none;
+}
+#modalProject{
+	background: white;
+	position: absolute;
+	width: 50%;
+	left: 25%;
+	top: 25%;
+	padding: 0;
+	max-height: 50%;
+	overflow: auto;
+	border-radius: 10px;
+}
+#modalProject #head{
+	position: sticky;
+	top: 0;
+	background: white;
+	font-size: large;
+	font-weight: bold;
+}
+#modalProject #head div{
+	width: 50%;
+	float: left;
+}
+#modalProject #head div span{
+	float: right;
+	cursor: pointer;
+	border: 2px solid #3e3ec1;
+	border-radius: 10px;
+	background: #3e3ec1;
+	color: white;
+	margin-left: 5px;
+}
+#modalProject #head div span:hover{
+	background: black;
+	border: 2px solid black;
+}
+#modalProject #content{
+	width: 96%;
+	padding: 2%;
+	margin: 0;
+	border: none;
+}
+#modalProject #content #contentout{
+	border-top: 1px dotted #3e3ec1;
+	padding: 2%;
+	width: 96%;
+	cursor: pointer;
+	float: left;
+}
+#contentout span{
+	width: 50%;
+	float: left;
+}
+#forimg{
+	text-align: center;
+	max-height: inherit;
+}
+#forimg img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+#modalProject #content div:hover{
+	text-decoration: underline;
+}
+#description{
+	float: left;
+	width: 100%;
+}
+#description div{
+	width: 100%;
+}#description #title{
+	font-size: medium;
+	font-weight: bold;
+}
+#description #subdescription{
+	font-size: small;
+	font-weight: lighter;
+}
+#sfooter{
+	font-size: 12px;
+	font-weight: lighter;
+	float: right;
+	text-align: right;
+	width: 100%;
+}
+#boundaries{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: transparent;
+}
+#newcontentout{
+	width: 94%;
+	margin: 2%;
+	margin-bottom: 4%;
+	float: left;
+	padding-left: 0;
+}
+#newcontentout div{
+	width: 48%;
+	float: left;
+	font-size: medium;
+}
+#newcontentout #description{
+	width: 100%;
+	float: left;
+	text-decoration: none;
+}
+#newcontentout div div span input,textarea{
+	outline: none;
+	border: 2px solid #3e3ec1;
+	border-radius: 10px;
+	padding: 2%;
+}
+#description span textarea{
+	width: 96%;
+	resize: none;
+}
+#thumbnail span input{
+	float: right;
+	width: 100%;
+}
+#sideleft div{
+	width: 50%;
+	float: left;
+}
+#sideleft div span{
+	width: 100%;
+	float: left;
+}
+#sideleft div span input{
+	width: 90%;
+	padding: 5%;
+}
+#sideright div{
+	width: 100%;
+	float: left;
+}
+#sideright div span{
+	width: 100%;
+	float: left;
+}
+#sideright div span input{
+	width: 90%;
+	padding: 5%;
+	max-width: 90%;
+}
+#sideright div span img{
+	width: 90%;
+	padding: 5%;
+	max-width: 90%;	
+}
+#description span{
+	text-decoration: none;
+}
+#preview{
+	float: right;
+}
+#uploadProgress{
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	padding: 10%;
+	background: white;
+	border-radius: 10px;
+	width: 30%;
+	border: 2px solid lightgray;
+}
+#uploadProgress #title,#uploadProgress #progress{
+	width: 100%;
+	float: left;
+}
+#uploadProgress #title{
+	font-size: larger;
+}
+#uploadProgress #progress #outborder{
+	margin: auto;
+	width: 80%;
+	border: 2px solid green;
+	border-radius: 5px;
+	background: white;
+	margin-top: 10%;
+	color: green;
+}
+#uploadProgress #progress #outborder #borderin{
+	width: 0;
+	background: green;
+	margin: 0;
+	display: inline-block;
+}
+#contactModal{
+	margin: auto;
+	width: 97%;
+	margin-top: 10px;
+	bottom: 10px;
+}
+#contactModal #title{
+	float: left;
+	border-bottom: 1px dotted #3e3ec1;
+	width: 100%;
+	padding-bottom: 5px;
+	position: sticky;
+	top: 0;
+	color: #3e3ec1;
+}
+#contactModal #title #left{
+	float: left;
+}
+#contactModal #title #right{
+	float: right;
+	cursor: pointer;
+	background: #3e3ec1;
+	color: white;
+	padding: 10px;
+	font-size: medium;
+	border-radius: 10px;
+}
+#contactModal #title #right:hover{
+	background: black;
+}
+#contactModal #body{
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+}
+#contactModal #body div{
+	float: left;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 10px;
+	font-size: large;
+}
+#contactModal #body div #left{
+	float: left;
+}
+#contactModal #body div #right{
+	float: right;
+	padding: 2px;
+	border-radius: 5px;
+	font-weight: bold;
+}
+.youtube{
+	background: red;
+	padding: 2px;
+	color: white;
+	border-radius: 5px;
+}
+.twitter{
+	background: lightblue;
+	padding: 2px;
+	color: white;
+	border-radius: 5px;
+}
+.quora{
+	background: darkred;
+	padding: 2px;
+	color: white;
+	border-radius: 5px;
+}
+.instagram{
+	background: pink;
+	padding: 2px;
+	color: white;
+	border-radius: 5px;
+}
+.whatsapp{
+	background: lightgreen;
+	padding: 2px;
+	color: white;
+	border-radius: 5px;	
+}
+@media screen and (max-width: 650px){
+	#content{
+		width: 90%;
+		padding: 0;
+	}
+	#desktopnav{
+		display: none;
+	}
+	#mobilenav{
+		display: block;
+	}
+	#mobilenav img{
+		width: 20px;
+		height: 20px;
+		margin-top: 5px;
+		background: white;
+		border-radius: 10px;
+	}
+	#content{
+		font-size: 25px;
+	}
+	#content div{
+		padding-left: 10px
+	}
+	#imgsec{
+		border: none;
+		background: none;
+	}
+	#imgsec img{
+		border: 2px dotted white;
+	}
+	.fz-20s{
+		font-size: 15px;
+	}
+	#modalProject{
+		width: 98%;
+		left: 1%;
+		top: 25%;
+	}
+	#modalProject #head{
+		font-size: 20px;
+		font-size: large;
+		font-weight: bold;
+	}
+	#description #subdescription{
+		font-size: small;
+	}
+	#forimg img{
+		width: 60px;
+		height: 60px;
+	}
+	#description span textarea{
+		width: 88%;
+		resize: none;
+	}
+	#uploadProgress #title{
+		font-size: medium;
+	}
+}
